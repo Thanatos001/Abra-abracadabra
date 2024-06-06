@@ -14,13 +14,14 @@
 <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
 
+<script>
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', function() {
     navigator.serviceWorker.register('./service-worker.js');
 	console.log("Servive Worker registered");	  
   });
 }
-
+</script>
 	
 <title>PingPong</title>
 </head>
