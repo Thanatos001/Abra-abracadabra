@@ -1,4 +1,4 @@
-const cacheName = 'Bling Bong-v1';
+const cacheName = 'Bling Bong';
 
 
 const staticAssets = [ 
