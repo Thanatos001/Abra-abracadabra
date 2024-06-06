@@ -18,6 +18,12 @@
 </head>
 
 <body>
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('./service-worker.js');
+	console.log("Servive Worker registered");	  
+  });
+}
 <canvas id="MeinCanvas"></canvas>
 <script>
 document.body.style.overflow = 'hidden';
